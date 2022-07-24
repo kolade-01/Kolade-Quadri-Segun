@@ -1,0 +1,39 @@
+import pandas as pd
+
+df = pd.read_csv("hamoye2.csv", encoding = "latin-1")
+
+df
+
+df.shape
+
+df.groupby("Item").sum()
+
+df.describe()
+
+df.isna().sum()
+
+c
+
+df["Element Code"].corr(df["Y2015"])
+
+df["Element Code"].corr(df["Y2016"])
+
+df["Element Code"].corr(df["Y2014"])
+
+df["Element Code"].corr(df["Y2017"])
+
+df.groupby("Element").sum()
+
+df.groupby("Element").sum()
+
+df.nunique()
+
+tuppy = (1,2,5,8)
+
+tuppy[2] = 6
+
+hay = [2, -7, 8]
+
+hay[2]
+
+how = (4, -9, 8)
